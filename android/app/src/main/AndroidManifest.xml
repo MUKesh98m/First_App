@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.web">
+<<<<<<< HEAD
 
     <application
+=======
+   <application
+>>>>>>> a98679d8d2966bbce7d9b391581f403fbe2e543a
         android:label="Fluuter"
         android:name="${applicationName}"
         android:icon="@mipmap/google">

@@ -117,12 +117,20 @@ packages:
     source: hosted
     version: "3.0.1"
   http:
+<<<<<<< HEAD
     dependency: "direct main"
+=======
+    dependency: transitive
+>>>>>>> a98679d8d2966bbce7d9b391581f403fbe2e543a
     description:
       name: http
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "0.13.3"
+=======
+    version: "0.13.4"
+>>>>>>> a98679d8d2966bbce7d9b391581f403fbe2e543a
   http_parser:
     dependency: transitive
     description:
@@ -228,6 +236,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+<<<<<<< HEAD
   pedantic:
     dependency: transitive
     description:
@@ -235,6 +244,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.11.1"
+=======
+>>>>>>> a98679d8d2966bbce7d9b391581f403fbe2e543a
   platform:
     dependency: transitive
     description:
