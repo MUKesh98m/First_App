@@ -1,27 +1,31 @@
-class item {
-  final String id;
+
+class Item {
+  final int id;
   final String name;
   final String descripton;
   final String color;
   final String image;
   final int price;
 
-  item(
+  Item(
       {required this.id,
-      required this.name,
-      required this.descripton,
-      required this.color,
-      required this.image,
-      required this.price});
+        required this.name,
+        required this.descripton,
+        required this.color,
+        required this.image,
+        required this.price});
 }
 
-final products = [
-  item(
-      id: "2011",
-      name: "iphone 12,",
-      color: '#30555a',
-      descripton: '',
-      image:
-          'https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605269918/Croma%20Assets/Communication/Mobiles/Images/8999510310942.png/mxw_1440,s_jp2,s_videoimg,ns_atwebp,f_auto',
-      price: 39000)
-];
+
+class CataLogmodel {
+  static final items = [
+    Item(
+        id: 2011,
+        name: "iphone 15 PRO MAX ULTRA PRO,",
+        color: '#30555a',
+        descripton: 'The iPhone 12 features a 6.1-inch',
+        image:
+            'https://m.media-amazon.com/images/I/41+2tWGDs3L._AC_SY679_.jpg',
+        price: 999)
+  ];
+}

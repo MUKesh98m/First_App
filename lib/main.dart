@@ -18,6 +18,9 @@ class first extends StatelessWidget {
         nextScreen: home(),
         backgroundColor: Colors.white,
       ),
+      theme: new ThemeData(
+        primarySwatch: Colors.red,
+      ),
       debugShowCheckedModeBanner: false,
 
       //  initialRoute: '/home',
